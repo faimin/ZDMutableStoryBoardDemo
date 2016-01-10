@@ -1,10 +1,13 @@
 PODS:
   - RDVTabBarController (1.1.9)
+  - VOVCManager (1.0.1)
 
 DEPENDENCIES:
   - RDVTabBarController (~> 1.1.9)
+  - VOVCManager
 
 SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  VOVCManager: 9a226141bbb921a59660cc39a6447a9b0b504e9e
 
 COCOAPODS: 0.39.0
