@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThreeController.h
 //  ZDMutableStoryBoardDemo
 //
 //  Created by 符现超 on 16/1/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ThreeController : UIViewController
 
 @end
-
