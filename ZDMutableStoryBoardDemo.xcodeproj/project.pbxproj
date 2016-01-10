@@ -100,59 +100,59 @@
 				0587DFDE1C420C020029C00D /* Three.storyboard */,
 				0587DFE01C420C5E0029C00D /* Four.storyboard */,
 			);
-			name = UI;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		0587DFE31C420CB70029C00D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				05DDAC5B1C4208AE00970D18 /* ViewController.h */,
-				05DDAC5C1C4208AE00970D18 /* ViewController.m */,
 				0587DFE41C420CC30029C00D /* One */,
 				0587DFE51C420CCE0029C00D /* Two */,
 				0587DFE71C420CE30029C00D /* Three */,
 				0587DFE81C420CEC0029C00D /* Four */,
+				05DDAC5B1C4208AE00970D18 /* ViewController.h */,
+				05DDAC5C1C4208AE00970D18 /* ViewController.m */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		0587DFE41C420CC30029C00D /* One */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = One;
+			path = One;
 			sourceTree = "<group>";
 		};
 		0587DFE51C420CCE0029C00D /* Two */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Two;
+			path = Two;
 			sourceTree = "<group>";
 		};
 		0587DFE71C420CE30029C00D /* Three */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Three;
+			path = Three;
 			sourceTree = "<group>";
 		};
 		0587DFE81C420CEC0029C00D /* Four */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Four;
+			path = Four;
 			sourceTree = "<group>";
 		};
 		05DDAC491C4208AE00970D18 = {
 			isa = PBXGroup;
 			children = (
 				05DDAC541C4208AE00970D18 /* ZDMutableStoryBoardDemo */,
+				BD93BFBE630083FD0F8E75C7 /* Frameworks */,
+				48A53495ED1969D66D6BA285 /* Pods */,
+				05DDAC531C4208AE00970D18 /* Products */,
 				05DDAC6E1C4208AE00970D18 /* ZDMutableStoryBoardDemoTests */,
 				05DDAC791C4208AE00970D18 /* ZDMutableStoryBoardDemoUITests */,
-				05DDAC531C4208AE00970D18 /* Products */,
-				48A53495ED1969D66D6BA285 /* Pods */,
-				BD93BFBE630083FD0F8E75C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,13 +169,13 @@
 		05DDAC541C4208AE00970D18 /* ZDMutableStoryBoardDemo */ = {
 			isa = PBXGroup;
 			children = (
-				05DDAC581C4208AE00970D18 /* AppDelegate.h */,
-				05DDAC591C4208AE00970D18 /* AppDelegate.m */,
 				0587DFE31C420CB70029C00D /* Controller */,
 				0587DFE21C420C970029C00D /* UI */,
+				05DDAC581C4208AE00970D18 /* AppDelegate.h */,
+				05DDAC591C4208AE00970D18 /* AppDelegate.m */,
 				05DDAC611C4208AE00970D18 /* Assets.xcassets */,
-				05DDAC631C4208AE00970D18 /* LaunchScreen.storyboard */,
 				05DDAC661C4208AE00970D18 /* Info.plist */,
+				05DDAC631C4208AE00970D18 /* LaunchScreen.storyboard */,
 				05DDAC551C4208AE00970D18 /* Supporting Files */,
 			);
 			path = ZDMutableStoryBoardDemo;
@@ -186,14 +186,14 @@
 			children = (
 				05DDAC561C4208AE00970D18 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		05DDAC6E1C4208AE00970D18 /* ZDMutableStoryBoardDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				05DDAC6F1C4208AE00970D18 /* ZDMutableStoryBoardDemoTests.m */,
 				05DDAC711C4208AE00970D18 /* Info.plist */,
+				05DDAC6F1C4208AE00970D18 /* ZDMutableStoryBoardDemoTests.m */,
 			);
 			path = ZDMutableStoryBoardDemoTests;
 			sourceTree = "<group>";
@@ -201,8 +201,8 @@
 		05DDAC791C4208AE00970D18 /* ZDMutableStoryBoardDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				05DDAC7A1C4208AE00970D18 /* ZDMutableStoryBoardDemoUITests.m */,
 				05DDAC7C1C4208AE00970D18 /* Info.plist */,
+				05DDAC7A1C4208AE00970D18 /* ZDMutableStoryBoardDemoUITests.m */,
 			);
 			path = ZDMutableStoryBoardDemoUITests;
 			sourceTree = "<group>";
@@ -453,6 +453,7 @@
 				05DDAC5F1C4208AE00970D18 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		05DDAC631C4208AE00970D18 /* LaunchScreen.storyboard */ = {
@@ -461,6 +462,7 @@
 				05DDAC641C4208AE00970D18 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
