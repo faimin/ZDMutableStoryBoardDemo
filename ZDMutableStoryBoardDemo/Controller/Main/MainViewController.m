@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-
+#import <RDVTabBarItem.h>
 
 @interface MainViewController ()
 
@@ -31,12 +31,12 @@
 - (void)settingViewControllers
 {
     UIViewController *oneVC = [self controllerWithClass:NSClassFromString(@"OneController") storyboardName:@"One"];
-//    UIViewController *twoVC = ({
-//        UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"Two" bundle:nil];
-//        UIViewController *nav = [stroyboard instantiateInitialViewController];
-//        nav;
-//    });
-    UIViewController *twoVC = [self controllerWithClass:NSClassFromString(@"TwoController") storyboardName:@"Two"];
+    UIViewController *twoVC = ({
+        UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"Two" bundle:nil];
+        UIViewController *nav = [stroyboard instantiateViewControllerWithIdentifier:@"Two-Nav"];
+        nav;
+    });
+
     UIViewController *threeVC = [self controllerWithClass:NSClassFromString(@"ThreeController") storyboardName:@"Three"];
     UIViewController *fourVC = [self controllerWithClass:NSClassFromString(@"FourController") storyboardName:@"Four"];
     

@@ -7,138 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10CB0030B152829BA10DB0114BF6B775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
-		29209C16C70A76E096D0B7B34A6954A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
-		432CA0836238ED41415CC6E0E244B557 /* RDVTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4751B0A8310B028D9EC09907CE4BCF /* RDVTabBarController-dummy.m */; };
-		484CF5E87971261D7CC59EA1BB30A745 /* RDVTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D0994DF8AA7AA65D2A605288DC1B0AC3 /* RDVTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DA95FA4BE043DB41DD2334689160555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		5B1CAE6C215424ABA204A07172272865 /* VOVCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A688B0B7CE92701E5C094B2D7BAEAA /* VOVCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7F7A52DA6AF0985C7528BE1ECAA786 /* RDVTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F260E11079BC275F39F91AA9A97002CB /* RDVTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64BFEAC7926A7DD0E11FC5CF48A642FF /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFCA8D1911F3A3118289B0F9A3821B5 /* RDVTabBarController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		71A34A69CA0116A716F8B0951619E10F /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F748BA85E6DCA833928D79055B794887 /* RDVTabBarItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		76A9B6C03805F56CEEA57A9D4BD2CF42 /* UIViewController+Record.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A44BD8418D2CC03EC48E21EBA1F54C1 /* UIViewController+Record.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95315FC80364393845498FC381B2B82A /* UIViewController+Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBE3CF9A6DC70B40947C022C2150E9 /* UIViewController+Record.m */; };
-		993478ED60448051BB4E26C3828DE13D /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F8222B66CF9BD8DB2181DAC6712011 /* RDVTabBar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A77AB622C16169741267CC15F081A9DF /* VOVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03585F206413FE70922A88AAA5165EAC /* VOVCManager.m */; };
-		ADF427FEEFDB2CC69C185EA95FFCA3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		B5DDA403DDB5DD8D2F7CEDE78D79199A /* RDVTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F8698220C662C4CFC712F5CF3F68F8 /* RDVTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B74A926A81F2D7369DFA54EA887CB6B0 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = EB106BDF51272C748B0788FF43C2550E /* NSObject+Runtime.m */; };
-		E336696198EB86A570DFDD1347F553BB /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		E9973146191275F395D25B075E5D91B2 /* VOVCManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE2FF5777B6901E2A6750E1EA567878 /* VOVCManager-dummy.m */; };
-		ED515255CB2BC76315C0B100B780EE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		F525B33D51910770C867BE857F4BCD0F /* NSObject+Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BB1C6B75079792CBE1690C78068EDF /* NSObject+Runtime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0209BC29199D5E6213521615E9602950 /* NSObject+Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 821340471C18E1DD25F2BA3285D4E96C /* NSObject+Runtime.h */; };
+		04E682E54E8A154925B73E0295D7628B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F3476DABBA0975CB5C31826D488686 /* UIKit.framework */; };
+		05573DEE983C35BEBADCADB64A731077 /* UIViewController+Record.h in Headers */ = {isa = PBXBuildFile; fileRef = 91457A83BF1CB1351992B4C1DC4F2E80 /* UIViewController+Record.h */; };
+		142F2BA9FB8383A058DECAB692487665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F8BC9792C480241B76A0B9894CA0D9 /* CoreGraphics.framework */; };
+		23CAF1191247A53894034A81E416F405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A4241765D62558D3DE19A21D06C5DA /* Foundation.framework */; };
+		403924874C1755E39F5AE4FA40A6BD29 /* VOVCManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA89AF670760000C5684E0814134C997 /* VOVCManager-dummy.m */; };
+		4EE01FB0F9349800C751EA9D4178592B /* RDVTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7401FD01B3CE2775BEB30BCFD1893114 /* RDVTabBarController.h */; };
+		69CCCAA07690BDEE41B0F2BB91163514 /* VOVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9219BEEBAD26700D682750D41747009B /* VOVCManager.m */; };
+		7CB48501AB4A70CF486C6D56FEE7202D /* RDVTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3EFEAF0A36E43BA7A4EC9AE3E3BC22 /* RDVTabBarItem.h */; };
+		885BC4357D3C2739C1605C419B0126B4 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A22094721DEF83C3F43D8C700FD3B14E /* RDVTabBar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E1287FEDDE998AD7C6240AE2D3E7E37 /* RDVTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5366FDD7F1EA7DAD5CF7577AA5F37A5B /* RDVTabBar.h */; };
+		92F6D55C831C82F872982E599CC1904A /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B44C7C225DCFE6A06557504E02FCA /* NSObject+Runtime.m */; };
+		B1C50BCD7D65EBC7B5E3D60D2498B927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A4241765D62558D3DE19A21D06C5DA /* Foundation.framework */; };
+		B64B65B6BDF637281D19436F738962C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A4241765D62558D3DE19A21D06C5DA /* Foundation.framework */; };
+		B7C2AB6AD7F1EBF16B699C802DE89556 /* UIViewController+Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4B7D73824B64ECA4AEE6F945A10A0 /* UIViewController+Record.m */; };
+		BAFB81F20B0719C21E372068494C586D /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6155390ED4B9472325569AE5347D4758 /* RDVTabBarItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7B12FCB6383FF15AC0D74BFB9D0CFBA /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F37439CB8E5B4A6127DD37EF18FF6 /* RDVTabBarController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F725C3CF1674E1A44E3922B4055B8910 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B765AA5306DC2415DE6FEE7FD08805 /* Pods-dummy.m */; };
+		F7D1DF4B13AD5E9ACD734E9CC38BEB03 /* VOVCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEE6F584C27F8090A72C47BE93AC092 /* VOVCManager.h */; };
+		FD594EA8A8F589E676FC9C332C662752 /* RDVTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C26317E25F7485A64637D1FFF514CBF /* RDVTabBarController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		062BE6C1449AF3347AAC55D68DC2D12B /* PBXContainerItemProxy */ = {
+		AFAF9E6CC5587E2A2BA3ACCB3066A5F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAA25EFC9901A3A7CF4578C72CB03209;
+			remoteGlobalIDString = 1787F783FA6AD5654D2FEA2BBF7A2EF4;
 			remoteInfo = RDVTabBarController;
 		};
-		358E1AF61CBC7330F1B993AA066A7F37 /* PBXContainerItemProxy */ = {
+		F7ACAC3BF287FE68D511DE059BCD7BDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AD8DEB0F2CB2D0695ED6D4FA376EBCC4;
+			remoteGlobalIDString = 692A87B346AE8CEADB2C6ADCE9E1E70B;
 			remoteInfo = VOVCManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F8222B66CF9BD8DB2181DAC6712011 /* RDVTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBar.m; path = RDVTabBarController/RDVTabBar.m; sourceTree = "<group>"; };
-		03585F206413FE70922A88AAA5165EAC /* VOVCManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOVCManager.m; path = VOVCManager/VOVCManager.m; sourceTree = "<group>"; };
-		07908D2B9127DCA7A8457D8E93CFB824 /* RDVTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDVTabBarController.xcconfig; sourceTree = "<group>"; };
-		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2AFCA8D1911F3A3118289B0F9A3821B5 /* RDVTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarController.m; path = RDVTabBarController/RDVTabBarController.m; sourceTree = "<group>"; };
-		33A688B0B7CE92701E5C094B2D7BAEAA /* VOVCManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOVCManager.h; path = VOVCManager/VOVCManager.h; sourceTree = "<group>"; };
-		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E78751A1ABC54220A1CA9B7C4115CF1 /* VOVCManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOVCManager.xcconfig; sourceTree = "<group>"; };
-		3FCBE3CF9A6DC70B40947C022C2150E9 /* UIViewController+Record.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Record.m"; path = "VOVCManager/UIViewController+Record.m"; sourceTree = "<group>"; };
-		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		5D28109BCFED12DF5276932E451E66CF /* libVOVCManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVOVCManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6A44BD8418D2CC03EC48E21EBA1F54C1 /* UIViewController+Record.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Record.h"; path = "VOVCManager/UIViewController+Record.h"; sourceTree = "<group>"; };
-		6E4751B0A8310B028D9EC09907CE4BCF /* RDVTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RDVTabBarController-dummy.m"; sourceTree = "<group>"; };
-		7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		80BB1C6B75079792CBE1690C78068EDF /* NSObject+Runtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Runtime.h"; path = "VOVCManager/NSObject+Runtime.h"; sourceTree = "<group>"; };
-		88F8698220C662C4CFC712F5CF3F68F8 /* RDVTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarController.h; path = RDVTabBarController/RDVTabBarController.h; sourceTree = "<group>"; };
-		95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		97D04862DA9447FA107912CB96C53300 /* libRDVTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRDVTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		B354A4B257B39E424D6F1A379D900C36 /* VOVCManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOVCManager-prefix.pch"; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BF06032ABCF34D3A43037E8BA909E3A /* RDVTabBarController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RDVTabBarController-Private.xcconfig"; sourceTree = "<group>"; };
+		28CDC28368FD49A89CBCBFE05A88C3C7 /* VOVCManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VOVCManager-Private.xcconfig"; sourceTree = "<group>"; };
+		2C26317E25F7485A64637D1FFF514CBF /* RDVTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RDVTabBarController-dummy.m"; sourceTree = "<group>"; };
+		2C8F37439CB8E5B4A6127DD37EF18FF6 /* RDVTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarController.m; path = RDVTabBarController/RDVTabBarController.m; sourceTree = "<group>"; };
+		3E2FB6C1FED40FCB66C6272E7A41F1EA /* libVOVCManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVOVCManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2842F691586CC49170F2EF246D52C5 /* VOVCManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOVCManager-prefix.pch"; sourceTree = "<group>"; };
+		5366FDD7F1EA7DAD5CF7577AA5F37A5B /* RDVTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBar.h; path = RDVTabBarController/RDVTabBar.h; sourceTree = "<group>"; };
+		5968707C31928807027838CF92EA9424 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "Reveal-Framework-iOS-1.6.2/Reveal.framework"; sourceTree = "<group>"; };
+		6155390ED4B9472325569AE5347D4758 /* RDVTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarItem.m; path = RDVTabBarController/RDVTabBarItem.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		69F7166E6283ED01078144E01B4BFBE2 /* RDVTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDVTabBarController.xcconfig; sourceTree = "<group>"; };
+		6A3EFEAF0A36E43BA7A4EC9AE3E3BC22 /* RDVTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarItem.h; path = RDVTabBarController/RDVTabBarItem.h; sourceTree = "<group>"; };
+		7401FD01B3CE2775BEB30BCFD1893114 /* RDVTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarController.h; path = RDVTabBarController/RDVTabBarController.h; sourceTree = "<group>"; };
+		77A4241765D62558D3DE19A21D06C5DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A5B44C7C225DCFE6A06557504E02FCA /* NSObject+Runtime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Runtime.m"; path = "VOVCManager/NSObject+Runtime.m"; sourceTree = "<group>"; };
+		821340471C18E1DD25F2BA3285D4E96C /* NSObject+Runtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Runtime.h"; path = "VOVCManager/NSObject+Runtime.h"; sourceTree = "<group>"; };
+		86F3476DABBA0975CB5C31826D488686 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8ACA19052854A2344CE0B6E9F783C0E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91457A83BF1CB1351992B4C1DC4F2E80 /* UIViewController+Record.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Record.h"; path = "VOVCManager/UIViewController+Record.h"; sourceTree = "<group>"; };
+		9219BEEBAD26700D682750D41747009B /* VOVCManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VOVCManager.m; path = VOVCManager/VOVCManager.m; sourceTree = "<group>"; };
+		9B3EBD76FD8932BF831603C772AF73A2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9EE4B7D73824B64ECA4AEE6F945A10A0 /* UIViewController+Record.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Record.m"; path = "VOVCManager/UIViewController+Record.m"; sourceTree = "<group>"; };
+		A22094721DEF83C3F43D8C700FD3B14E /* RDVTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBar.m; path = RDVTabBarController/RDVTabBar.m; sourceTree = "<group>"; };
+		ADEE6F584C27F8090A72C47BE93AC092 /* VOVCManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOVCManager.h; path = VOVCManager/VOVCManager.h; sourceTree = "<group>"; };
+		AE4FF665A326DEE1C1C79B6835982E95 /* VOVCManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOVCManager.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C27AB49082C0E368B9FA8C9660C3E1CF /* RDVTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDVTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		D0994DF8AA7AA65D2A605288DC1B0AC3 /* RDVTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBar.h; path = RDVTabBarController/RDVTabBar.h; sourceTree = "<group>"; };
-		D9045ADA98148B35EED2F6E9379F03CB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB106BDF51272C748B0788FF43C2550E /* NSObject+Runtime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Runtime.m"; path = "VOVCManager/NSObject+Runtime.m"; sourceTree = "<group>"; };
-		EEE2FF5777B6901E2A6750E1EA567878 /* VOVCManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOVCManager-dummy.m"; sourceTree = "<group>"; };
-		F260E11079BC275F39F91AA9A97002CB /* RDVTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarItem.h; path = RDVTabBarController/RDVTabBarItem.h; sourceTree = "<group>"; };
-		F748BA85E6DCA833928D79055B794887 /* RDVTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarItem.m; path = RDVTabBarController/RDVTabBarItem.m; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6B765AA5306DC2415DE6FEE7FD08805 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		CA89AF670760000C5684E0814134C997 /* VOVCManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOVCManager-dummy.m"; sourceTree = "<group>"; };
+		D92A3D24F9222EB22425D2DF1FE48924 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E5227B500722487F85817AF47A253540 /* RDVTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDVTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		E8F8BC9792C480241B76A0B9894CA0D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		ED318A8805E0753CD914029423E5CDA0 /* libRDVTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRDVTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		251DE29D6A78765E99CEB4D7D46F523A /* Frameworks */ = {
+		0450E96DDE82918FC8DF625A6D28282C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA95FA4BE043DB41DD2334689160555 /* Foundation.framework in Frameworks */,
+				142F2BA9FB8383A058DECAB692487665 /* CoreGraphics.framework in Frameworks */,
+				23CAF1191247A53894034A81E416F405 /* Foundation.framework in Frameworks */,
+				04E682E54E8A154925B73E0295D7628B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81BFFC4A6AC2EF1868515039D4E3BDF7 /* Frameworks */ = {
+		947143D23327C5A3BD426A70A7866BC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF427FEEFDB2CC69C185EA95FFCA3C7 /* Foundation.framework in Frameworks */,
+				B64B65B6BDF637281D19436F738962C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EBD10821CE7F8F6D0F732457CF7BDAC /* Frameworks */ = {
+		EF0EF0BECC8C8D6B47A5B58E8518DBD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10CB0030B152829BA10DB0114BF6B775 /* CoreGraphics.framework in Frameworks */,
-				ED515255CB2BC76315C0B100B780EE9D /* Foundation.framework in Frameworks */,
-				29209C16C70A76E096D0B7B34A6954A9 /* UIKit.framework in Frameworks */,
+				B1C50BCD7D65EBC7B5E3D60D2498B927 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+		0B80D6E22C91DF73E172CD8D1DF5DD9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+				AC379059657CC5A9FE0CB0AFEDED262E /* RDVTabBarController */,
+				310C6106719D86C44CFE29059E7293ED /* Reveal-iOS-SDK */,
+				D60DCE81ABA9BACEFFEC59A584177ABF /* VOVCManager */,
 			);
-			name = "Targets Support Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E35B3E289DB984DA75A774080D293670 /* iOS */,
+				39CF33B2E976FD3E12A7D9F562B97919 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		73C606ABFD774C8831A82A2076419AA5 /* VOVCManager */ = {
+		310C6106719D86C44CFE29059E7293ED /* Reveal-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				80BB1C6B75079792CBE1690C78068EDF /* NSObject+Runtime.h */,
-				EB106BDF51272C748B0788FF43C2550E /* NSObject+Runtime.m */,
-				6A44BD8418D2CC03EC48E21EBA1F54C1 /* UIViewController+Record.h */,
-				3FCBE3CF9A6DC70B40947C022C2150E9 /* UIViewController+Record.m */,
-				33A688B0B7CE92701E5C094B2D7BAEAA /* VOVCManager.h */,
-				03585F206413FE70922A88AAA5165EAC /* VOVCManager.m */,
-				9BB1303E80A6887242774AA3C34DE180 /* Support Files */,
+				64BCE521116502DA35ABAA1339FEBE8D /* Frameworks */,
 			);
-			path = VOVCManager;
+			path = "Reveal-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		39CF33B2E976FD3E12A7D9F562B97919 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8F8BC9792C480241B76A0B9894CA0D9 /* CoreGraphics.framework */,
+				77A4241765D62558D3DE19A21D06C5DA /* Foundation.framework */,
+				86F3476DABBA0975CB5C31826D488686 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		50B18A187E63C14EEA922F2E5B896198 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69F7166E6283ED01078144E01B4BFBE2 /* RDVTabBarController.xcconfig */,
+				1BF06032ABCF34D3A43037E8BA909E3A /* RDVTabBarController-Private.xcconfig */,
+				2C26317E25F7485A64637D1FFF514CBF /* RDVTabBarController-dummy.m */,
+				E5227B500722487F85817AF47A253540 /* RDVTabBarController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RDVTabBarController";
+			sourceTree = "<group>";
+		};
+		64BCE521116502DA35ABAA1339FEBE8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5968707C31928807027838CF92EA9424 /* Reveal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -146,143 +174,135 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				D2D418B9E9CCF38A9C2F1C236477C2E3 /* Pods */,
-				FC2741D6A1D3AE3F3E4909A147635219 /* Products */,
-				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+				0B80D6E22C91DF73E172CD8D1DF5DD9C /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9BB1303E80A6887242774AA3C34DE180 /* Support Files */ = {
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E78751A1ABC54220A1CA9B7C4115CF1 /* VOVCManager.xcconfig */,
-				EEE2FF5777B6901E2A6750E1EA567878 /* VOVCManager-dummy.m */,
-				B354A4B257B39E424D6F1A379D900C36 /* VOVCManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/VOVCManager";
-			sourceTree = "<group>";
-		};
-		A7B5CD91BFE74467ADEDEDC2DE6E7FD0 /* RDVTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				D0994DF8AA7AA65D2A605288DC1B0AC3 /* RDVTabBar.h */,
-				02F8222B66CF9BD8DB2181DAC6712011 /* RDVTabBar.m */,
-				88F8698220C662C4CFC712F5CF3F68F8 /* RDVTabBarController.h */,
-				2AFCA8D1911F3A3118289B0F9A3821B5 /* RDVTabBarController.m */,
-				F260E11079BC275F39F91AA9A97002CB /* RDVTabBarItem.h */,
-				F748BA85E6DCA833928D79055B794887 /* RDVTabBarItem.m */,
-				CD9C9E4A60620B05994A0B3C19E0469A /* Support Files */,
-			);
-			path = RDVTabBarController;
-			sourceTree = "<group>";
-		};
-		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
-				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
-				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
-				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
-				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
-				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
-				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				C6B765AA5306DC2415DE6FEE7FD08805 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				9B3EBD76FD8932BF831603C772AF73A2 /* Pods.debug.xcconfig */,
+				D92A3D24F9222EB22425D2DF1FE48924 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		CD9C9E4A60620B05994A0B3C19E0469A /* Support Files */ = {
+		AC379059657CC5A9FE0CB0AFEDED262E /* RDVTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				07908D2B9127DCA7A8457D8E93CFB824 /* RDVTabBarController.xcconfig */,
-				6E4751B0A8310B028D9EC09907CE4BCF /* RDVTabBarController-dummy.m */,
-				C27AB49082C0E368B9FA8C9660C3E1CF /* RDVTabBarController-prefix.pch */,
+				5366FDD7F1EA7DAD5CF7577AA5F37A5B /* RDVTabBar.h */,
+				A22094721DEF83C3F43D8C700FD3B14E /* RDVTabBar.m */,
+				7401FD01B3CE2775BEB30BCFD1893114 /* RDVTabBarController.h */,
+				2C8F37439CB8E5B4A6127DD37EF18FF6 /* RDVTabBarController.m */,
+				6A3EFEAF0A36E43BA7A4EC9AE3E3BC22 /* RDVTabBarItem.h */,
+				6155390ED4B9472325569AE5347D4758 /* RDVTabBarItem.m */,
+				50B18A187E63C14EEA922F2E5B896198 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RDVTabBarController";
+			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
-		D2D418B9E9CCF38A9C2F1C236477C2E3 /* Pods */ = {
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7B5CD91BFE74467ADEDEDC2DE6E7FD0 /* RDVTabBarController */,
-				73C606ABFD774C8831A82A2076419AA5 /* VOVCManager */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E35B3E289DB984DA75A774080D293670 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */,
-				95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */,
-				7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FC2741D6A1D3AE3F3E4909A147635219 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D9045ADA98148B35EED2F6E9379F03CB /* libPods.a */,
-				97D04862DA9447FA107912CB96C53300 /* libRDVTabBarController.a */,
-				5D28109BCFED12DF5276932E451E66CF /* libVOVCManager.a */,
+				8ACA19052854A2344CE0B6E9F783C0E5 /* libPods.a */,
+				ED318A8805E0753CD914029423E5CDA0 /* libRDVTabBarController.a */,
+				3E2FB6C1FED40FCB66C6272E7A41F1EA /* libVOVCManager.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D60DCE81ABA9BACEFFEC59A584177ABF /* VOVCManager */ = {
+			isa = PBXGroup;
+			children = (
+				821340471C18E1DD25F2BA3285D4E96C /* NSObject+Runtime.h */,
+				7A5B44C7C225DCFE6A06557504E02FCA /* NSObject+Runtime.m */,
+				91457A83BF1CB1351992B4C1DC4F2E80 /* UIViewController+Record.h */,
+				9EE4B7D73824B64ECA4AEE6F945A10A0 /* UIViewController+Record.m */,
+				ADEE6F584C27F8090A72C47BE93AC092 /* VOVCManager.h */,
+				9219BEEBAD26700D682750D41747009B /* VOVCManager.m */,
+				EABA31CEB53B68B13D14B22FE49D8429 /* Support Files */,
+			);
+			path = VOVCManager;
+			sourceTree = "<group>";
+		};
+		EABA31CEB53B68B13D14B22FE49D8429 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE4FF665A326DEE1C1C79B6835982E95 /* VOVCManager.xcconfig */,
+				28CDC28368FD49A89CBCBFE05A88C3C7 /* VOVCManager-Private.xcconfig */,
+				CA89AF670760000C5684E0814134C997 /* VOVCManager-dummy.m */,
+				4C2842F691586CC49170F2EF246D52C5 /* VOVCManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VOVCManager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D71C77BF531069C6C92C503CB765EA2 /* Headers */ = {
+		2291208EAA1892D6A16513DD4F09AE4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484CF5E87971261D7CC59EA1BB30A745 /* RDVTabBar.h in Headers */,
-				B5DDA403DDB5DD8D2F7CEDE78D79199A /* RDVTabBarController.h in Headers */,
-				5B7F7A52DA6AF0985C7528BE1ECAA786 /* RDVTabBarItem.h in Headers */,
+				0209BC29199D5E6213521615E9602950 /* NSObject+Runtime.h in Headers */,
+				05573DEE983C35BEBADCADB64A731077 /* UIViewController+Record.h in Headers */,
+				F7D1DF4B13AD5E9ACD734E9CC38BEB03 /* VOVCManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDAA72E7215661812C6D1EF70E425494 /* Headers */ = {
+		86970ACC41BF20E3ACF6BE53F11D95A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F525B33D51910770C867BE857F4BCD0F /* NSObject+Runtime.h in Headers */,
-				76A9B6C03805F56CEEA57A9D4BD2CF42 /* UIViewController+Record.h in Headers */,
-				5B1CAE6C215424ABA204A07172272865 /* VOVCManager.h in Headers */,
+				8E1287FEDDE998AD7C6240AE2D3E7E37 /* RDVTabBar.h in Headers */,
+				4EE01FB0F9349800C751EA9D4178592B /* RDVTabBarController.h in Headers */,
+				7CB48501AB4A70CF486C6D56FEE7202D /* RDVTabBarItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4AEE9D7AB6283A6A9BB0C640955E609D /* Pods */ = {
+		0EF76ECDB38B5334D39DF99CEBA84A0F /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E26239C7D3662CC15BDD0C5361427CD8 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = F49D41C074BF28E1FD6772E67A1E0BC7 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				D62184AC4732F7E3286FD167631FA219 /* Sources */,
-				81BFFC4A6AC2EF1868515039D4E3BDF7 /* Frameworks */,
+				50E1151DF3246E680B2689B917063A4D /* Sources */,
+				EF0EF0BECC8C8D6B47A5B58E8518DBD1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				71889DAE1DEEA8CE6B21740E630B93F3 /* PBXTargetDependency */,
-				E69A12D3E224857A09CAC46609ED5025 /* PBXTargetDependency */,
+				789923D86C28140C7332425F05DAE2AF /* PBXTargetDependency */,
+				FF9672999D674A8743691E138FA5999A /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = D9045ADA98148B35EED2F6E9379F03CB /* libPods.a */;
+			productReference = 8ACA19052854A2344CE0B6E9F783C0E5 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AAA25EFC9901A3A7CF4578C72CB03209 /* RDVTabBarController */ = {
+		1787F783FA6AD5654D2FEA2BBF7A2EF4 /* RDVTabBarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE172401063F5226B405C3E88626E933 /* Build configuration list for PBXNativeTarget "RDVTabBarController" */;
+			buildConfigurationList = DA4F0080F394CA14D09F779DDD473F56 /* Build configuration list for PBXNativeTarget "RDVTabBarController" */;
 			buildPhases = (
-				188D7D610CCCBD12D174A388E2E987D0 /* Sources */,
-				8EBD10821CE7F8F6D0F732457CF7BDAC /* Frameworks */,
-				3D71C77BF531069C6C92C503CB765EA2 /* Headers */,
+				A2071854A3BEA970AB9252A891E0EDBA /* Sources */,
+				0450E96DDE82918FC8DF625A6D28282C /* Frameworks */,
+				86970ACC41BF20E3ACF6BE53F11D95A2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -290,16 +310,16 @@
 			);
 			name = RDVTabBarController;
 			productName = RDVTabBarController;
-			productReference = 97D04862DA9447FA107912CB96C53300 /* libRDVTabBarController.a */;
+			productReference = ED318A8805E0753CD914029423E5CDA0 /* libRDVTabBarController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AD8DEB0F2CB2D0695ED6D4FA376EBCC4 /* VOVCManager */ = {
+		692A87B346AE8CEADB2C6ADCE9E1E70B /* VOVCManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3312E3065B501E6704E08209AB1205A /* Build configuration list for PBXNativeTarget "VOVCManager" */;
+			buildConfigurationList = 5F3DB89C6742A67EF2B9C61DB54EBBFB /* Build configuration list for PBXNativeTarget "VOVCManager" */;
 			buildPhases = (
-				DFD11BD1826880748AD01D3514F5DFB9 /* Sources */,
-				251DE29D6A78765E99CEB4D7D46F523A /* Frameworks */,
-				FDAA72E7215661812C6D1EF70E425494 /* Headers */,
+				8F7827E518A54D2B03658A95B6CE9F1C /* Sources */,
+				947143D23327C5A3BD426A70A7866BC8 /* Frameworks */,
+				2291208EAA1892D6A16513DD4F09AE4C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -307,7 +327,7 @@
 			);
 			name = VOVCManager;
 			productName = VOVCManager;
-			productReference = 5D28109BCFED12DF5276932E451E66CF /* libVOVCManager.a */;
+			productReference = 3E2FB6C1FED40FCB66C6272E7A41F1EA /* libVOVCManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -327,83 +347,66 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FC2741D6A1D3AE3F3E4909A147635219 /* Products */;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AEE9D7AB6283A6A9BB0C640955E609D /* Pods */,
-				AAA25EFC9901A3A7CF4578C72CB03209 /* RDVTabBarController */,
-				AD8DEB0F2CB2D0695ED6D4FA376EBCC4 /* VOVCManager */,
+				0EF76ECDB38B5334D39DF99CEBA84A0F /* Pods */,
+				1787F783FA6AD5654D2FEA2BBF7A2EF4 /* RDVTabBarController */,
+				692A87B346AE8CEADB2C6ADCE9E1E70B /* VOVCManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		188D7D610CCCBD12D174A388E2E987D0 /* Sources */ = {
+		50E1151DF3246E680B2689B917063A4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993478ED60448051BB4E26C3828DE13D /* RDVTabBar.m in Sources */,
-				432CA0836238ED41415CC6E0E244B557 /* RDVTabBarController-dummy.m in Sources */,
-				64BFEAC7926A7DD0E11FC5CF48A642FF /* RDVTabBarController.m in Sources */,
-				71A34A69CA0116A716F8B0951619E10F /* RDVTabBarItem.m in Sources */,
+				F725C3CF1674E1A44E3922B4055B8910 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D62184AC4732F7E3286FD167631FA219 /* Sources */ = {
+		8F7827E518A54D2B03658A95B6CE9F1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E336696198EB86A570DFDD1347F553BB /* Pods-dummy.m in Sources */,
+				92F6D55C831C82F872982E599CC1904A /* NSObject+Runtime.m in Sources */,
+				B7C2AB6AD7F1EBF16B699C802DE89556 /* UIViewController+Record.m in Sources */,
+				403924874C1755E39F5AE4FA40A6BD29 /* VOVCManager-dummy.m in Sources */,
+				69CCCAA07690BDEE41B0F2BB91163514 /* VOVCManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFD11BD1826880748AD01D3514F5DFB9 /* Sources */ = {
+		A2071854A3BEA970AB9252A891E0EDBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74A926A81F2D7369DFA54EA887CB6B0 /* NSObject+Runtime.m in Sources */,
-				95315FC80364393845498FC381B2B82A /* UIViewController+Record.m in Sources */,
-				E9973146191275F395D25B075E5D91B2 /* VOVCManager-dummy.m in Sources */,
-				A77AB622C16169741267CC15F081A9DF /* VOVCManager.m in Sources */,
+				885BC4357D3C2739C1605C419B0126B4 /* RDVTabBar.m in Sources */,
+				FD594EA8A8F589E676FC9C332C662752 /* RDVTabBarController-dummy.m in Sources */,
+				C7B12FCB6383FF15AC0D74BFB9D0CFBA /* RDVTabBarController.m in Sources */,
+				BAFB81F20B0719C21E372068494C586D /* RDVTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		71889DAE1DEEA8CE6B21740E630B93F3 /* PBXTargetDependency */ = {
+		789923D86C28140C7332425F05DAE2AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RDVTabBarController;
-			target = AAA25EFC9901A3A7CF4578C72CB03209 /* RDVTabBarController */;
-			targetProxy = 062BE6C1449AF3347AAC55D68DC2D12B /* PBXContainerItemProxy */;
+			target = 1787F783FA6AD5654D2FEA2BBF7A2EF4 /* RDVTabBarController */;
+			targetProxy = AFAF9E6CC5587E2A2BA3ACCB3066A5F5 /* PBXContainerItemProxy */;
 		};
-		E69A12D3E224857A09CAC46609ED5025 /* PBXTargetDependency */ = {
+		FF9672999D674A8743691E138FA5999A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VOVCManager;
-			target = AD8DEB0F2CB2D0695ED6D4FA376EBCC4 /* VOVCManager */;
-			targetProxy = 358E1AF61CBC7330F1B993AA066A7F37 /* PBXContainerItemProxy */;
+			target = 692A87B346AE8CEADB2C6ADCE9E1E70B /* VOVCManager */;
+			targetProxy = F7ACAC3BF287FE68D511DE059BCD7BDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		034CF7151A899DF65EC7ABFAE25C38B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		052A17875CB827423D627183396CEB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -438,44 +441,25 @@
 			};
 			name = Release;
 		};
-		15FB888F728A585E95C49E79B2D4D718 /* Release */ = {
+		40FA66780E99A2EC64C827326DC4BEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E78751A1ABC54220A1CA9B7C4115CF1 /* VOVCManager.xcconfig */;
+			baseConfigurationReference = 28CDC28368FD49A89CBCBFE05A88C3C7 /* VOVCManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/VOVCManager/VOVCManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1D7F5D41C4CCECBED5317278AB06AC03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		677FF1E06D29621A2E1A623F388B94C4 /* Release */ = {
+		5B8F4E1E936156CE17911F654A3FD030 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07908D2B9127DCA7A8457D8E93CFB824 /* RDVTabBarController.xcconfig */;
+			baseConfigurationReference = 1BF06032ABCF34D3A43037E8BA909E3A /* RDVTabBarController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RDVTabBarController/RDVTabBarController-prefix.pch";
@@ -483,17 +467,15 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		A8B8192094049F136FAE9E41BA4C01F1 /* Debug */ = {
+		B36D83DA7F3CF1816FF15957A984A9F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07908D2B9127DCA7A8457D8E93CFB824 /* RDVTabBarController.xcconfig */;
+			baseConfigurationReference = 1BF06032ABCF34D3A43037E8BA909E3A /* RDVTabBarController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RDVTabBarController/RDVTabBarController-prefix.pch";
@@ -501,9 +483,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -548,23 +528,53 @@
 			};
 			name = Debug;
 		};
-		E140076C62B3C7F7454A75D28E25CD20 /* Debug */ = {
+		D6CD75CDCC549774DDB61B5FE5071945 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E78751A1ABC54220A1CA9B7C4115CF1 /* VOVCManager.xcconfig */;
+			baseConfigurationReference = 9B3EBD76FD8932BF831603C772AF73A2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VOVCManager/VOVCManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		D7BDB5E784DDDBCFCFE207316E83256C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92A3D24F9222EB22425D2DF1FE48924 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F105525CD305E2E5098B6607B3709A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CDC28368FD49A89CBCBFE05A88C3C7 /* VOVCManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VOVCManager/VOVCManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -578,29 +588,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3312E3065B501E6704E08209AB1205A /* Build configuration list for PBXNativeTarget "VOVCManager" */ = {
+		5F3DB89C6742A67EF2B9C61DB54EBBFB /* Build configuration list for PBXNativeTarget "VOVCManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E140076C62B3C7F7454A75D28E25CD20 /* Debug */,
-				15FB888F728A585E95C49E79B2D4D718 /* Release */,
+				40FA66780E99A2EC64C827326DC4BEF6 /* Debug */,
+				F105525CD305E2E5098B6607B3709A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE172401063F5226B405C3E88626E933 /* Build configuration list for PBXNativeTarget "RDVTabBarController" */ = {
+		DA4F0080F394CA14D09F779DDD473F56 /* Build configuration list for PBXNativeTarget "RDVTabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8B8192094049F136FAE9E41BA4C01F1 /* Debug */,
-				677FF1E06D29621A2E1A623F388B94C4 /* Release */,
+				B36D83DA7F3CF1816FF15957A984A9F5 /* Debug */,
+				5B8F4E1E936156CE17911F654A3FD030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E26239C7D3662CC15BDD0C5361427CD8 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		F49D41C074BF28E1FD6772E67A1E0BC7 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				034CF7151A899DF65EC7ABFAE25C38B8 /* Debug */,
-				1D7F5D41C4CCECBED5317278AB06AC03 /* Release */,
+				D6CD75CDCC549774DDB61B5FE5071945 /* Debug */,
+				D7BDB5E784DDDBCFCFE207316E83256C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
