@@ -33,7 +33,7 @@
     UIViewController *oneVC = [self controllerWithClass:NSClassFromString(@"OneController") storyboardName:@"One"];
     UIViewController *twoVC = ({
         UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"Two" bundle:nil];
-        UIViewController *nav = [stroyboard instantiateViewControllerWithIdentifier:@"Two-Nav"];
+        UINavigationController *nav = [stroyboard instantiateViewControllerWithIdentifier:@"Two-Nav"];
         nav;
     });
 
