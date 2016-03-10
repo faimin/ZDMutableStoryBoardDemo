@@ -30,15 +30,14 @@
 #pragma mark - Setting
 - (void)settingViewControllers
 {
-    UIViewController *oneVC = [self controllerWithClass:NSClassFromString(@"OneController") storyboardName:@"One"];
-    UIViewController *twoVC = ({
-        UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"Two" bundle:nil];
-        UINavigationController *nav = [stroyboard instantiateViewControllerWithIdentifier:@"Two-Nav"];
-        nav;
-    });
-
-    UIViewController *threeVC = [self controllerWithClass:NSClassFromString(@"ThreeController") storyboardName:@"Three"];
-    UIViewController *fourVC = [self controllerWithClass:NSClassFromString(@"FourController") storyboardName:@"Four"];
+    UIViewController *oneVC = [self navgationControllerWithStoryboardID:@"OneNav"
+                                                         storyboardName:@"One"];
+    UIViewController *twoVC = [self navgationControllerWithStoryboardID:@"TwoNav"
+                                                         storyboardName:@"Two"];
+    UIViewController *threeVC = [self navgationControllerWithStoryboardID:@"ThreeNav"
+                                                           storyboardName:@"Three"];
+    UIViewController *fourVC = [self controllerWithClass:NSClassFromString(@"FourController")
+                                          storyboardName:@"Four"];
     
     self.viewControllers = @[oneVC, twoVC, threeVC, fourVC];
 }
@@ -51,6 +50,18 @@
     UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:stroyboardName bundle:nil];
     if (stroyboard) {
         viewController = [stroyboard instantiateViewControllerWithIdentifier:NSStringFromClass(class)];
+    }
+    return viewController;
+}
+
+- (nullable __kindof UIViewController *)navgationControllerWithStoryboardID:(NSString *)storyboardId storyboardName:(NSString *)stroyboardName {
+    if (!stroyboardName || stroyboardName.length == 0) {
+        return nil;
+    }
+    UIViewController *viewController;
+    UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:stroyboardName bundle:nil];
+    if (stroyboard) {
+        viewController = [stroyboard instantiateViewControllerWithIdentifier:storyboardId];
     }
     return viewController;
 }
