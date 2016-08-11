@@ -361,7 +361,7 @@ static VOVCManager *_sharedManager;
     NSArray *curVCs = [self.currentViewController.navigationController viewControllers];
     NSMutableArray *targetVCs = [curVCs mutableCopy];
     NSMutableArray *willRemoveVCs = [NSMutableArray array];
-    [viewControllers enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [viewControllers enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL * stop) {
         if ([obj isKindOfClass:[NSString class]]) {
             [curVCs enumerateObjectsUsingBlock:^(UIViewController *vc, NSUInteger idx, BOOL *stop) {
                 if ([obj isEqualToString:NSStringFromClass([vc class])]) {
@@ -399,25 +399,27 @@ static VOVCManager *_sharedManager;
                sourceWithNavi:(BOOL)sourceWithNavi
                    destInNavi:(BOOL)destInNavi
                    completion:(void (^)(void))completion{
-    return [self presentViewController:aController storyboard:aStoryboard params:aParams sourceWithNavi:sourceWithNavi destInNavi:destInNavi alpha:1 completion:completion];
+    return [self presentViewController:aController storyboard:aStoryboard params:aParams sourceWithNavi:sourceWithNavi destInNavi:destInNavi alpha:1 animated:YES completion:completion];
 }
 
 - (UIViewController *)presentViewController:(NSString *)aController
-                   storyboard:(NSString *)aStoryboard
-                       params:(NSDictionary *)aParams
-               sourceWithNavi:(BOOL)sourceWithNavi
-                   destInNavi:(BOOL)destInNavi
-                        alpha:(CGFloat)alpha
-                   completion:(void (^)(void))completion{
+                                 storyboard:(NSString *)aStoryboard
+                                     params:(NSDictionary *)aParams
+                             sourceWithNavi:(BOOL)sourceWithNavi
+                                 destInNavi:(BOOL)destInNavi
+                                      alpha:(CGFloat)alpha
+                                   animated:(CGFloat)animated
+                                 completion:(void (^)(void))completion{
     UIViewController *destVC = [self viewController:aController storyboard:aStoryboard params:aParams];
-    return [self presentViewController:destVC sourceWithNavi:sourceWithNavi destInNavi:destInNavi alpha:alpha completion:completion];
+    return [self presentViewController:destVC sourceWithNavi:sourceWithNavi destInNavi:destInNavi alpha:alpha animated:animated completion:completion];
 }
 
 - (UIViewController *)presentViewController:(UIViewController *)viewController
-               sourceWithNavi:(BOOL)sourceWithNavi
-                   destInNavi:(BOOL)destInNavi
-                        alpha:(CGFloat)alpha
-                   completion:(void (^)(void))completion{
+                             sourceWithNavi:(BOOL)sourceWithNavi
+                                 destInNavi:(BOOL)destInNavi
+                                      alpha:(CGFloat)alpha
+                                   animated:(CGFloat)animated
+                                 completion:(void (^)(void))completion{
     UIViewController *destVC = viewController;
     if (destInNavi) {
         if (![destVC isKindOfClass:[UINavigationController class]]){
@@ -447,7 +449,7 @@ static VOVCManager *_sharedManager;
             [destVC.view sendSubviewToBack:imageView];
         }
     }
-    [sourceVC presentViewController:destVC animated:YES completion:completion];
+    [sourceVC presentViewController:destVC animated:animated completion:completion];
     return destVC;
 }
 

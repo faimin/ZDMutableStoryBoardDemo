@@ -1,16 +1,19 @@
 PODS:
   - RDVTabBarController (1.1.9)
   - Reveal-iOS-SDK (1.6.2)
-  - VOVCManager (1.0.1)
+  - RTRootNavigationController (0.5.19)
+  - VOVCManager (1.0.2)
 
 DEPENDENCIES:
   - RDVTabBarController (~> 1.1.9)
   - Reveal-iOS-SDK
-  - VOVCManager
+  - RTRootNavigationController
+  - VOVCManager (~> 1.0.2)
 
 SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
-  VOVCManager: 9a226141bbb921a59660cc39a6447a9b0b504e9e
+  RTRootNavigationController: 546e0e6e0a8bee275f6f09d7ecfcd0bc476b114f
+  VOVCManager: c3ed7c11776feae1f721acaad349abbcd1b672a6
 
 COCOAPODS: 0.38.2

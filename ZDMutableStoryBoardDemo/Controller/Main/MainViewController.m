@@ -3,11 +3,12 @@
 //  ZDMutableStoryBoardDemo
 //
 //  Created by 符现超 on 16/1/10.
-//  Copyright © 2016年 Fate.D.Bourne. All rights reserved.
+//  Copyright © 2016年 Zero.D.Saber. All rights reserved.
 //
 
 #import "MainViewController.h"
 #import <RDVTabBarItem.h>
+#import <RTRootNavigationController/RTRootNavigationController.h>
 
 @interface MainViewController ()
 
@@ -38,8 +39,11 @@
                                                            storyboardName:@"Three"];
     UIViewController *fourVC = [self controllerWithClass:NSClassFromString(@"FourController")
                                           storyboardName:@"Four"];
+    //self.viewControllers = @[oneVC, twoVC, threeVC, fourVC];
     
-    self.viewControllers = @[oneVC, twoVC, threeVC, fourVC];
+    // 因为前三个获取到的都是导航控制器视图，所以不用包装，只需要把类改一下
+    RTContainerNavigationController *nav4 = [[RTContainerNavigationController alloc] initWithRootViewController:fourVC];
+    self.viewControllers = @[oneVC, twoVC, threeVC, nav4];
 }
 
 - (nullable __kindof UIViewController *)controllerWithClass:(Class)class storyboardName:(NSString *)stroyboardName {
