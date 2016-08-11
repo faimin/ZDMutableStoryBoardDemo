@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4AA3E362401B4586518FB55C02DD8788E71E922B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E329E12008D67B0E310038A11A5272110E31A97F" : 0,
+    "4AA3E362401B4586518FB55C02DD8788E71E922B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A8D3F37-AC43-4AE4-B28E-779B6E622B35",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E329E12008D67B0E310038A11A5272110E31A97F" : "..",
+    "4AA3E362401B4586518FB55C02DD8788E71E922B" : "ZDMutableStoryBoardDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZDMutableStoryBoardDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZDMutableStoryBoardDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/faimin\/ZDMutableStoryBoardDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4AA3E362401B4586518FB55C02DD8788E71E922B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/faimin\/LibClass.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E329E12008D67B0E310038A11A5272110E31A97F"
+    }
+  ]
+}

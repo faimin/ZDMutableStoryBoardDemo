@@ -1,6 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Reveal-iOS-SDK/Reveal-Framework-iOS-1.6.2"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/RDVTabBarController" "${PODS_ROOT}/Headers/Public/RTRootNavigationController" "${PODS_ROOT}/Headers/Public/Reveal-iOS-SDK" "${PODS_ROOT}/Headers/Public/Reveal-iOS-SDK/Reveal" "${PODS_ROOT}/Headers/Public/VOVCManager"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/RDVTabBarController" -isystem "${PODS_ROOT}/Headers/Public/RTRootNavigationController" -isystem "${PODS_ROOT}/Headers/Public/Reveal-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Public/Reveal-iOS-SDK/Reveal" -isystem "${PODS_ROOT}/Headers/Public/VOVCManager"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"RDVTabBarController" -l"RTRootNavigationController" -l"VOVCManager" -l"z" -framework "CFNetwork" -framework "CoreGraphics" -framework "Foundation" -framework "QuartzCore" -framework "Reveal" -framework "UIKit"
-PODS_ROOT = ${SRCROOT}/Pods
