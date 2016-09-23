@@ -11,6 +11,8 @@
 		05243C841C42696E00766BEA /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05243C831C42696E00766BEA /* TwoController.m */; };
 		05243C871C42697D00766BEA /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05243C861C42697D00766BEA /* ThreeController.m */; };
 		05243C8A1C42698B00766BEA /* FourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05243C891C42698B00766BEA /* FourController.m */; };
+		052AB0381D958C1B005A6501 /* TwoController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 052AB0371D958C1B005A6501 /* TwoController1.m */; };
+		052AB03B1D958C31005A6501 /* TwoController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 052AB03A1D958C31005A6501 /* TwoController2.m */; };
 		0587DFDB1C420BD00029C00D /* One.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0587DFDA1C420BD00029C00D /* One.storyboard */; };
 		0587DFDD1C420BEA0029C00D /* Two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0587DFDC1C420BEA0029C00D /* Two.storyboard */; };
 		0587DFDF1C420C020029C00D /* Three.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0587DFDE1C420C020029C00D /* Three.storyboard */; };
@@ -52,6 +54,10 @@
 		05243C861C42697D00766BEA /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
 		05243C881C42698B00766BEA /* FourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourController.h; sourceTree = "<group>"; };
 		05243C891C42698B00766BEA /* FourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourController.m; sourceTree = "<group>"; };
+		052AB0361D958C1B005A6501 /* TwoController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController1.h; sourceTree = "<group>"; };
+		052AB0371D958C1B005A6501 /* TwoController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController1.m; sourceTree = "<group>"; };
+		052AB0391D958C31005A6501 /* TwoController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController2.h; sourceTree = "<group>"; };
+		052AB03A1D958C31005A6501 /* TwoController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController2.m; sourceTree = "<group>"; };
 		0587DFDA1C420BD00029C00D /* One.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = One.storyboard; sourceTree = "<group>"; };
 		0587DFDC1C420BEA0029C00D /* Two.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Two.storyboard; sourceTree = "<group>"; };
 		0587DFDE1C420C020029C00D /* Three.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Three.storyboard; sourceTree = "<group>"; };
@@ -150,6 +156,10 @@
 			children = (
 				05243C821C42696E00766BEA /* TwoController.h */,
 				05243C831C42696E00766BEA /* TwoController.m */,
+				052AB0361D958C1B005A6501 /* TwoController1.h */,
+				052AB0371D958C1B005A6501 /* TwoController1.m */,
+				052AB0391D958C31005A6501 /* TwoController2.h */,
+				052AB03A1D958C31005A6501 /* TwoController2.m */,
 			);
 			path = Two;
 			sourceTree = "<group>";
@@ -439,10 +449,12 @@
 			files = (
 				05243C811C42695C00766BEA /* OneController.m in Sources */,
 				05DDAC5D1C4208AE00970D18 /* MainViewController.m in Sources */,
+				052AB0381D958C1B005A6501 /* TwoController1.m in Sources */,
 				05243C8A1C42698B00766BEA /* FourController.m in Sources */,
 				05DDAC5A1C4208AE00970D18 /* AppDelegate.m in Sources */,
 				05243C841C42696E00766BEA /* TwoController.m in Sources */,
 				05243C871C42697D00766BEA /* ThreeController.m in Sources */,
+				052AB03B1D958C31005A6501 /* TwoController2.m in Sources */,
 				05DDAC571C4208AE00970D18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
