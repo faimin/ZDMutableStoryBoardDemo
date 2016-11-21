@@ -24,6 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+// 需要注意的是:
+// 这个方法的返回值必须是`IBAction`，参数必须是`UIStoryboardSegue`。
+- (IBAction)backUnwindSegue:(UIStoryboardSegue *)segue {
+    NSLog(@"%@", segue.destinationViewController);
+}
+
+
 /*
 #pragma mark - Navigation
 

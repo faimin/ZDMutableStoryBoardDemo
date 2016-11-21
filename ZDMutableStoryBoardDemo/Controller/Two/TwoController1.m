@@ -29,12 +29,6 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-// 需要注意的是:
-// 这个方法的返回值必须是ibaction，参数必须是uistoryboardsegue。
-- (IBAction)back:(UIStoryboardSegue *)segue {
-    
-}
-
 #pragma mark - UINavigationControllerDelegate
 
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {

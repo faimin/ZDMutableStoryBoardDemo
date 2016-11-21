@@ -332,6 +332,7 @@
 				TargetAttributes = {
 					05DDAC511C4208AE00970D18 = {
 						CreatedOnToolsVersion = 7.2;
+						ProvisioningStyle = Automatic;
 					};
 					05DDAC6A1C4208AE00970D18 = {
 						CreatedOnToolsVersion = 7.2;
@@ -599,6 +600,8 @@
 			baseConfigurationReference = 662459A0D45AC9E3A95E52ED /* Pods-ZDMutableStoryBoardDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZDMutableStoryBoardDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -612,6 +615,8 @@
 			baseConfigurationReference = 0AD62AB5E61F4496742DCD34 /* Pods-ZDMutableStoryBoardDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZDMutableStoryBoardDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
