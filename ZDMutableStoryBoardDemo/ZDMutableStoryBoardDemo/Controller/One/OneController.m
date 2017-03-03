@@ -7,6 +7,8 @@
 //
 
 #import "OneController.h"
+#import "MainViewController.h"
+#import "TestViewController.h"
 
 @interface OneController ()
 
@@ -24,6 +26,22 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
+}
+
+- (IBAction)pushToThree:(UIButton *)sender {
+    RDVTabBarController *rootVC = self.rdv_tabBarController;
+    rootVC.selectedIndex = 2;
+    UINavigationController *selectedNav = (UINavigationController *)rootVC.selectedViewController;
+
+    TestViewController *testVC = [[TestViewController alloc] init];
+    testVC.view.backgroundColor = [UIColor cyanColor];
+    
+    [selectedNav showViewController:testVC sender:nil];
 }
 
 /*

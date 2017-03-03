@@ -1,25 +1,23 @@
 //
-//  ThreeController.m
+//  TestViewController.m
 //  ZDMutableStoryBoardDemo
 //
-//  Created by 符现超 on 16/1/10.
-//  Copyright © 2016年 Zero.D.Saber. All rights reserved.
+//  Created by 符现超 on 2017/3/3.
+//  Copyright © 2017年 Fate.D.Bourne. All rights reserved.
 //
 
-#import "ThreeController.h"
+#import "TestViewController.h"
 #import <RDVTabBarController/RDVTabBarController.h>
 
-@interface ThreeController ()
+@interface TestViewController ()
 
 @end
 
-@implementation ThreeController
+@implementation TestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.navigationItem.title = @"Three";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,13 +27,13 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
+    [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
 }
 
-//- (void)viewWillDisappear:(BOOL)animated {
-//    [super viewWillDisappear:animated];
-//    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
-//}
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
+}
 
 /*
 #pragma mark - Navigation

@@ -43,6 +43,7 @@
     
     // 因为前三个获取到的都是导航控制器视图，所以不用包装，只需要把类改一下
     RTContainerNavigationController *nav4 = [[RTContainerNavigationController alloc] initWithRootViewController:fourVC];
+    
     self.viewControllers = @[oneVC, twoVC, threeVC, nav4];
 }
 
@@ -68,6 +69,12 @@
         viewController = [stroyboard instantiateViewControllerWithIdentifier:storyboardId];
     }
     return viewController;
+}
+
+#pragma mark - Getter
+
+- (BOOL)isTabBarHidden {
+    return NO;
 }
 
 @end

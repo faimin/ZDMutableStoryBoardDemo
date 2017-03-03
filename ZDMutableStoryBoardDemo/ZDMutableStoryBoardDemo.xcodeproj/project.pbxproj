@@ -26,6 +26,7 @@
 		05DDAC701C4208AE00970D18 /* ZDMutableStoryBoardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DDAC6F1C4208AE00970D18 /* ZDMutableStoryBoardDemoTests.m */; };
 		05DDAC7B1C4208AE00970D18 /* ZDMutableStoryBoardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DDAC7A1C4208AE00970D18 /* ZDMutableStoryBoardDemoUITests.m */; };
 		3304CEDFEB8CA3FDFA5A03D6 /* libPods-ZDMutableStoryBoardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D34AE184CE24C2C751E41F /* libPods-ZDMutableStoryBoardDemo.a */; };
+		BC0D7A2D1E69724A0082FE25 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0D7A2C1E69724A0082FE25 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		0AD62AB5E61F4496742DCD34 /* Pods-ZDMutableStoryBoardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDMutableStoryBoardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDMutableStoryBoardDemo/Pods-ZDMutableStoryBoardDemo.release.xcconfig"; sourceTree = "<group>"; };
 		662459A0D45AC9E3A95E52ED /* Pods-ZDMutableStoryBoardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDMutableStoryBoardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDMutableStoryBoardDemo/Pods-ZDMutableStoryBoardDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A3D34AE184CE24C2C751E41F /* libPods-ZDMutableStoryBoardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZDMutableStoryBoardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0D7A2B1E69724A0082FE25 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BC0D7A2C1E69724A0082FE25 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 			children = (
 				05243C851C42697D00766BEA /* ThreeController.h */,
 				05243C861C42697D00766BEA /* ThreeController.m */,
+				BC0D7A2B1E69724A0082FE25 /* TestViewController.h */,
+				BC0D7A2C1E69724A0082FE25 /* TestViewController.m */,
 			);
 			path = Three;
 			sourceTree = "<group>";
@@ -327,11 +332,12 @@
 		05DDAC4A1C4208AE00970D18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Fate.D.Bourne;
 				TargetAttributes = {
 					05DDAC511C4208AE00970D18 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9RX2YUH426;
 						ProvisioningStyle = Automatic;
 					};
 					05DDAC6A1C4208AE00970D18 = {
@@ -452,6 +458,7 @@
 				05DDAC5D1C4208AE00970D18 /* MainViewController.m in Sources */,
 				052AB0381D958C1B005A6501 /* TwoController1.m in Sources */,
 				05243C8A1C42698B00766BEA /* FourController.m in Sources */,
+				BC0D7A2D1E69724A0082FE25 /* TestViewController.m in Sources */,
 				05DDAC5A1C4208AE00970D18 /* AppDelegate.m in Sources */,
 				05243C841C42696E00766BEA /* TwoController.m in Sources */,
 				05243C871C42697D00766BEA /* ThreeController.m in Sources */,
@@ -526,8 +533,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -549,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -570,8 +579,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -587,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,9 +612,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9RX2YUH426;
 				INFOPLIST_FILE = ZDMutableStoryBoardDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZD.ZDMutableStoryBoardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -616,9 +627,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9RX2YUH426;
 				INFOPLIST_FILE = ZDMutableStoryBoardDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZD.ZDMutableStoryBoardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

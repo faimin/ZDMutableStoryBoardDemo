@@ -22,13 +22,22 @@ __kindof UIViewController *WrapedController(NSString *identifier, BOOL barHidden
     if (barHidden) {
         [nav setNavigationBarHidden:YES animated:NO];
     }
+    
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:nil action:nil];
+    vc.navigationItem.leftBarButtonItem = leftItem;
+    
     [containerController addChildViewController:nav];
     [nav didMoveToParentViewController:containerController];
+    nav.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    nav.view.frame = containerController.view.bounds;
     [containerController.view addSubview:nav.view];
     
     return containerController;
 }
 
+void backAction() {
+    
+}
 
 @interface Rooter ()
 
